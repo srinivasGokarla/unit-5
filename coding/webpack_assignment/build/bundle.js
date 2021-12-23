@@ -26,17 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _calc__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./calc */ \"./src/calc.js\");\n/* harmony import */ var _react_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./react.svg */ \"./src/react.svg\");\n\r\n\r\n__webpack_require__.e(/*! import() */ \"src_index_css\").then(__webpack_require__.bind(__webpack_require__, /*! ./index.css */ \"./src/index.css\"));\r\n\r\n\r\n\r\nconsole.log((0,_calc__WEBPACK_IMPORTED_MODULE_0__.add)(7,5))\r\nconsole.log((0,_calc__WEBPACK_IMPORTED_MODULE_0__.add)(25,25))\r\nconsole.log((0,_calc__WEBPACK_IMPORTED_MODULE_0__.mult)(25,4))\r\n\r\nconsole.log(\"First Assignment of React\")\r\n\r\nconst h1 = document.createElement(\"h1\")\r\n\r\n\r\nh1.innerText = \"First Assignment of React\";\r\nh1.classList.add(\"blue\");\r\n\r\nconst myIcon = new Image();\r\n  myIcon.src = _react_svg__WEBPACK_IMPORTED_MODULE_1__;\r\n\r\n document.body.appendChild(myIcon);\r\n\r\n\r\n\r\ndocument.getElementById(\"root\").appendChild(h1)\n\n//# sourceURL=webpack://webpack_assignment/./src/index.js?");
-
-/***/ }),
-
-/***/ "./src/react.svg":
-/*!***********************!*\
-  !*** ./src/react.svg ***!
-  \***********************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"1fcab817090e78435061.svg\";\n\n//# sourceURL=webpack://webpack_assignment/./src/react.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _calc__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./calc */ \"./src/calc.js\");\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module './react.svg'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\r\n\r\n__webpack_require__.e(/*! import() */ \"src_index_css\").then(__webpack_require__.bind(__webpack_require__, /*! ./index.css */ \"./src/index.css\"));\r\n\r\n\r\n\r\nconsole.log((0,_calc__WEBPACK_IMPORTED_MODULE_0__.add)(7,5))\r\nconsole.log((0,_calc__WEBPACK_IMPORTED_MODULE_0__.add)(25,25))\r\nconsole.log((0,_calc__WEBPACK_IMPORTED_MODULE_0__.mult)(25,4))\r\n\r\nconsole.log(\"First Assignment of React\")\r\n\r\nconst h1 = document.createElement(\"h1\")\r\n\r\n\r\nh1.innerText = \"First Assignment of React\";\r\nh1.classList.add(\"blue\");\r\n\r\nconst myIcon = new Image();\r\n  myIcon.src = Object(function webpackMissingModule() { var e = new Error(\"Cannot find module './react.svg'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\r\n\r\n document.body.appendChild(myIcon);\r\n\r\n\r\n\r\ndocument.getElementById(\"root\").appendChild(h1)\n\n//# sourceURL=webpack://webpack_assignment/./src/index.js?");
 
 /***/ })
 

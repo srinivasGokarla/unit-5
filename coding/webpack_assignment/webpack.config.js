@@ -19,6 +19,11 @@ module.exports = {
         type: 'asset/resource',
           
       },
+      {
+        test: /\.js$/,
+        use: ["babel-loader"],
+      },
+      
     ],
   },
 };
