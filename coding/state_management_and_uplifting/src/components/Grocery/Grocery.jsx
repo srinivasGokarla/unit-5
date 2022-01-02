@@ -4,8 +4,9 @@ import { GroceryList } from "./GroceryList"
 import { v4 as uuid } from "uuid"
 
 function Grocery() {
-    const[data, setData,Delete] = React.useState([]);
+    const[data, setData] = React.useState([]);
     const[showAll, setShowAll] = React.useState(true)
+    const[list,setList] = React.useState(data)
     const handleAdd = (title) => {
     const payload = {
         title,
@@ -13,12 +14,14 @@ function Grocery() {
         id: uuid()
     };
     setData([ ...data, payload])
-    Delete([ ...data, payload])
+  
  };
- const handleDelete = id => {
-    const updatedGrocery = data.map((item) =>
-    item.id === id ? { ...item, status : !item.status} : item );
-  Delete(updatedGrocery);
+ const handleDelete = (id) => {
+    const updatedGrocery = list.filter((person) => person.id !== id);
+
+   setList( updatedGrocery);;
+console.log("deleted")
+setData(updatedGrocery);
  }
  const handleToggle = id => {
     const updatedGrocery = data.map((item) =>
