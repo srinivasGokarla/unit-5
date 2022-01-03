@@ -17,7 +17,10 @@ function App() {
     <div className="right">
     <Card />
     </div>
-    <div  className="bottom"></div>
+    <div  className="bottom">
+    <img  width="100%" height="100%" src ="https://foodish-api.herokuapp.com/images/pizza/pizza44.jpg" />
+    </div>
+    
     </div>
     </div>
   );

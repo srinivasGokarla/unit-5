@@ -64,7 +64,7 @@ export const Form = () => {
           <br></br>
           <br></br>
           <button onClick={ addRecipe }>Submit</button>
-         
+          
         </div>
     )
 }
