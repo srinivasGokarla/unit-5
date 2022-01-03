@@ -64,9 +64,7 @@ export const Form = () => {
           <br></br>
           <br></br>
           <button onClick={ addRecipe }>Submit</button>
-          {test.map((e,i) => (
-          <div key={i}>{e.title}</div>
-          ))}
+         
         </div>
     )
 }
