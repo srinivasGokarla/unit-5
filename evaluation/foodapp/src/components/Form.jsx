@@ -8,41 +8,66 @@ export const Form = () => {
     useEffect(() => {
 
     })
+    const getRecipe = () => {
+        fetch("http://localhost:3001/Recipe").then(d => d.json()).then(res => {
+            setTest(res)
+        })
+    }
     const addRecipe = () => {
-        
+        const payload = {
+            title : text,
+            ingrediants : text,
+            timetocook : text,
+            image : text,
+            instructions : text,
+        }
+        fetch("http://localhost:3001/Recipe", {
+            method : "POST",
+            body: JSON.stringify(payload),
+            headers: {
+                "content-type": "application/json"
+            }
+        }).then(() => {
+            getRecipe()
+            setText("")
+        })
     }
 
     return (
-        <form>
+        
+            <div>
         
           <lable>Title</lable>
           <br></br>
-          <input type="text" name="title" placeholder="Enter Recipe Name" />
+          <input value={text} onChange={(e) => setText(e.target.value)} type="text" name="title" placeholder="Enter Recipe Name" />
           <br></br>
           <br></br>
 
           <lable>Ingrediants</lable>
           <br></br>
-          <input type="text" name="ingrediants" placeholder="Enter the Ingrediants" />
+          <input value={text} onChange={(e) => setText(e.target.value)} type="text" name="ingrediants" placeholder="Enter the Ingrediants" />
           <br></br>
           <br></br>
           <lable>Time to Cook</lable>
           <br></br>
-          <input type="number" name="Time to cook" placeholder="Enter the Time" />
+          <input value={Number} onChange={(e) => setText(e.target.value)} type="number" name="timetocook" placeholder="Enter the Time" />
           <br></br>
           <br></br>
           <lable>Image</lable>
           <br></br>
-          <input type="text" name="image" placeholder="Enter image url" />
+          <input value={text} onChange={(e) => setText(e.target.value)} type="text" name="image" placeholder="Enter image url" />
           <br></br>
           <br></br>
           <lable>Instructions</lable>
           <br></br>
-          <input type="text" name="Instructions" placeholder="Enter the Instructions" />
+          <input value={text} onChange={(e) => setText(e.target.value)} type="text" name="instructions" placeholder="Enter the Instructions" />
           <br></br>
           <br></br>
-          <button>Submit</button>
-        </form>
+          <button onClick={ addRecipe }>Submit</button>
+          {test.map((e,i) => (
+          <div key={i}>{e.title}</div>
+          ))}
+        </div>
     )
 }
 
