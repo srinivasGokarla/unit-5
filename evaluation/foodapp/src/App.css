@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+.big {
+  height: 800px;
+  width: 1200px;
+  color: black;
+  
+  border: 2px solid grey;
+  margin: auto;
+}
+.left {
+   height: 400px;
+   width: 400px;
+   border: 2px solid grey;
+   margin-left: 50px;
+   margin-top: 50px;
+   
+}
+.right {
+  height: 400px;
+  width: 500px;
+  border: 2px solid grey;
+  margin-left: 100px;
+  margin-top: 50px;
+  
+}
