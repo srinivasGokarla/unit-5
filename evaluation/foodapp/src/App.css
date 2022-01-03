@@ -37,7 +37,7 @@
   }
 }
 .big {
-  height: 850px;
+  height: 950px;
   width: 1200px;
   color: black;
   
@@ -45,7 +45,7 @@
   margin: auto;
 }
 .left {
-   height: 400px;
+   height: 500px;
    width: 400px;
    border: 2px solid grey;
    margin-left: 50px;
@@ -58,7 +58,7 @@
    
 }
 .right {
-  height: 400px;
+  height: 500px;
   width: 400px;
   border: 2px solid grey;
   margin-right: 50px;
@@ -71,6 +71,6 @@
   margin-top: 50px;
   width: 1100px;
   border: 2px solid grey;
-  margin-top:  500px;
+  margin-top:  600px;
   margin-left: 50px;
 }
