@@ -1,27 +1,27 @@
 {
   "Recipe": [
     {
-      "title": "",
-      "ingrediants": "",
-      "timetocook": "",
-      "image": "",
-      "instructions": "",
+      "title": "chicken pizza",
+      "ingrediants": "chicken",
+      "timetocook": "30",
+      "image": "https://foodish-api.herokuapp.com/images/pizza/pizza44.jpg",
+      "instructions": "non-veg",
       "id": 1
     },
     {
-      "title": "hai",
-      "ingrediants": "hai",
-      "timetocook": "hai",
-      "image": "hai",
-      "instructions": "hai",
+      "title": "mustord",
+      "ingrediants": "non",
+      "timetocook": "30",
+      "image": "image",
+      "instructions": "failed",
       "id": 2
     },
     {
-      "title": "",
-      "ingrediants": "",
-      "timetocook": "",
-      "image": "",
-      "instructions": "",
+      "title": "mutton",
+      "ingrediants": "edho",
+      "timetocook": "50",
+      "image": "image",
+      "instructions": "chechit",
       "id": 3
     },
     {
@@ -33,11 +33,11 @@
       "id": 4
     },
     {
-      "title": "hau",
-      "ingrediants": "hau",
-      "timetocook": "hau",
-      "image": "hau",
-      "instructions": "hau",
+      "title": "",
+      "ingrediants": "",
+      "timetocook": "",
+      "image": "",
+      "instructions": "",
       "id": 5
     },
     {
@@ -49,28 +49,20 @@
       "id": 6
     },
     {
-      "title": "hai",
-      "ingrediants": "hai",
-      "timetocook": "hai",
-      "image": "hai",
-      "instructions": "hai",
+      "title": "jjnnn",
+      "ingrediants": "jjnnn",
+      "timetocook": "jjnnn",
+      "image": "jjnnn",
+      "instructions": "jjnnn",
       "id": 7
     },
     {
-      "title": "checking",
-      "ingrediants": "checking",
-      "timetocook": "checking",
-      "image": "checking",
-      "instructions": "checking",
+      "title": "chicken",
+      "ingrediants": "chicken",
+      "timetocook": "chicken",
+      "image": "chicken",
+      "instructions": "chicken",
       "id": 8
-    },
-    {
-      "title": "24",
-      "ingrediants": "24",
-      "timetocook": "24",
-      "image": "24",
-      "instructions": "24",
-      "id": 9
     }
   ]
 }
