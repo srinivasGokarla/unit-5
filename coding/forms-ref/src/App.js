@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {Form} from "./components/form"
+import {Show} from "./components/Show"
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
  <h1>User Details Form</h1>
  
-   < Form />
+   < Show />
    
 
     </div>

@@ -1,0 +1,34 @@
+{
+  "forms": [
+    {
+      "name": "srinivas",
+      "age": "26",
+      "address": "kolluru",
+      "department": "sales",
+      "salary": "25000",
+      "notMarried": true,
+      "id": 1
+    },
+    {
+      "name": "venkatesh",
+      "age": "42",
+      "address": "palasa",
+      "department": "financial",
+      "salary": "45000",
+      "notMarried": false,
+      "ismarried": true,
+      "id": 2
+    },
+    {
+      "name": "santosh",
+      "age": "30",
+      "address": "vizag",
+      "department": "purchasing",
+      "salary": "75000",
+      "notMarried": false,
+      "ismarried": true,
+      "photo": "blob:http://localhost:3000/229bebf6-831d-406b-8da7-e561d4439ff9",
+      "id": 3
+    }
+  ]
+}
