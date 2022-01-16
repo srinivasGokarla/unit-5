@@ -1,0 +1,44 @@
+{
+  "todos": [
+    {
+      "status": false,
+      "title": "learn react",
+      "id": 1
+    },
+    {
+      "status": false,
+      "title": "learn Redux",
+      "id": 2
+    },
+    {
+      "status": false,
+      "title": "learn java",
+      "id": 3
+    },
+    {
+      "status": false,
+      "title": "learn backend",
+      "id": 4
+    },
+    {
+      "status": false,
+      "title": "learn backend",
+      "id": 5
+    },
+    {
+      "status": false,
+      "title": "learn javascript",
+      "id": 6
+    },
+    {
+      "status": false,
+      "title": "learn router",
+      "id": 7
+    },
+    {
+      "status": false,
+      "title": "thank you",
+      "id": 8
+    }
+  ]
+}

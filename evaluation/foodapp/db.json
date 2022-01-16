@@ -1,68 +1,28 @@
 {
   "Recipe": [
     {
-      "title": "chicken pizza",
-      "ingrediants": "chicken",
-      "timetocook": "30",
-      "image": "https://foodish-api.herokuapp.com/images/pizza/pizza44.jpg",
-      "instructions": "non-veg",
+      "title": "pizza",
+      "ingrediants": "pizza",
+      "timetocook": "pizza",
+      "image": "pizza",
+      "instructions": "pizza",
       "id": 1
     },
     {
-      "title": "mustord",
-      "ingrediants": "non",
-      "timetocook": "30",
-      "image": "image",
-      "instructions": "failed",
+      "title": "Biryani",
+      "ingrediants": "Biryani",
+      "timetocook": "Biryani",
+      "image": "Biryani",
+      "instructions": "Biryani",
       "id": 2
     },
     {
-      "title": "mutton",
-      "ingrediants": "edho",
-      "timetocook": "50",
-      "image": "image",
-      "instructions": "chechit",
+      "title": "Mutton",
+      "ingrediants": "Mutton",
+      "timetocook": "Mutton",
+      "image": "Mutton",
+      "instructions": "Mutton",
       "id": 3
-    },
-    {
-      "title": "hai",
-      "ingrediants": "hai",
-      "timetocook": "hai",
-      "image": "hai",
-      "instructions": "hai",
-      "id": 4
-    },
-    {
-      "title": "",
-      "ingrediants": "",
-      "timetocook": "",
-      "image": "",
-      "instructions": "",
-      "id": 5
-    },
-    {
-      "title": "",
-      "ingrediants": "",
-      "timetocook": "",
-      "image": "",
-      "instructions": "",
-      "id": 6
-    },
-    {
-      "title": "jjnnn",
-      "ingrediants": "jjnnn",
-      "timetocook": "jjnnn",
-      "image": "jjnnn",
-      "instructions": "jjnnn",
-      "id": 7
-    },
-    {
-      "title": "chicken",
-      "ingrediants": "chicken",
-      "timetocook": "chicken",
-      "image": "chicken",
-      "instructions": "chicken",
-      "id": 8
     }
   ]
 }

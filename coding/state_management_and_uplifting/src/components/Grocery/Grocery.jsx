@@ -4,41 +4,43 @@ import { GroceryList } from "./GroceryList"
 import { v4 as uuid } from "uuid"
 
 function Grocery() {
-    const[data, setData] = React.useState([]);
+    const[list, setList] = React.useState([]);
     const[showAll, setShowAll] = React.useState(true)
-    const[list,setList] = React.useState(data)
-    const handleAdd = (title) => {
+    //const[list,setList] = React.useState([])
+    const handleAdd = (data) => {
     const payload = {
-        title,
+        title: data,
         status: false,
         id: uuid()
     };
-    setData([ ...data, payload])
+    setList([ ...list, payload])
   
  };
  const handleDelete = (id) => {
-    const updatedGrocery = list.filter((person) => person.id !== id);
+    const newList = list.filter((e) => e.id !== id);
+    
+   setList(newList);
+console.log("deleted", id)
 
-   setList( updatedGrocery);;
-console.log("deleted")
-setData(updatedGrocery);
+
+
  }
+ 
  const handleToggle = id => {
-    const updatedGrocery = data.map((item) =>
+    const updatedGrocery = list.map((item) =>
     item.id === id ? { ...item, status : !item.status} : item );
-    setData(updatedGrocery);
+    setList(updatedGrocery);
 }
     return (
         <div>
         < GroceryInput onClick={handleAdd} />
-        {data.filter((item) => (showAll ? true : !item.status)).map((item) => (
+        {list.filter((item) => (showAll ? true : !item.status)).map((item) => (
             < GroceryList handleToggle={handleToggle} handleDelete={handleDelete} key={item.id} { ...item } />
         ))}
         
  <button onClick={() => setShowAll(!showAll)}>
      { showAll ? "sHOW ONLY UNFINISHED GROCERIES" : "SHOW ALL GROCERIES"}
  </button>
-
  
     </div>
     )
