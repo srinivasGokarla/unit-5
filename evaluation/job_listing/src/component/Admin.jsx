@@ -8,7 +8,7 @@ const axios = require('axios');
 
 const Admin =()=>{
  
-    const {loading ,jobs, error } = useSelector((state)=>({
+    const {loading ,jobs,error } = useSelector((state)=>({
         loading : state.loading,
         jobs : state.jobs ,
         error : state.error
