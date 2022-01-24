@@ -18,7 +18,7 @@ const {handleLogin, token} = useContext(AuthContext)
         return(
             <div>
                 <h1>Logged in Successfully</h1>
-                <h2>Token : {token.token}</h2>
+               
             </div>
         )
     }
