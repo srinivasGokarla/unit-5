@@ -23,10 +23,6 @@ function App() {
       <Route path="/Login"  element={ <Login/>}></Route>
 </Routes>
       
-
-       
-      
-      
     </div>
   );
 }
