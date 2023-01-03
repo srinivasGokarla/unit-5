@@ -5,9 +5,7 @@ import {useEffect, useState } from 'react'
 export const  Show = () =>{
     const [formData, setFormData] = useState([])
 
-
     const handleSubmit = (data) =>{
-      
         fetch("http://localhost:3001/forms",{
             "method" : "POST",
             "headers" : {
@@ -26,7 +24,7 @@ export const  Show = () =>{
         handleGet()
        
     }, [])
-   
+
     const handleGet =()=>{
         fetch("http://localhost:3001/forms")
         .then(res=>res.json())
@@ -35,7 +33,6 @@ export const  Show = () =>{
         })
         console.log('formData', formData)
     }
-
     return(
         <>
          < Table getdata = {formData} />

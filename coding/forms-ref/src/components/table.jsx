@@ -1,7 +1,4 @@
 import React from 'react';
-
-
-
  const Table = ({getdata}) => {
   const style = {
     marginLeft: "40px",

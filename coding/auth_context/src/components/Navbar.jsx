@@ -18,10 +18,13 @@ const Div = styled.div`
 
 export const Navbar = ()=>{
     const {token, handleToken} = useContext(AuthContext)
+    console.log(token)
     return(
         <Div>
-            <h2>Auth Context</h2>
+            <h2>Auth Context </h2>
+           
             <div>
+                 <h3>{token.token}</h3>
                 <button onClick={ handleToken } > {token ? "Logout" : "Login" }</button>
             </div>
             

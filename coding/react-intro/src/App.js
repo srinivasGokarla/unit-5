@@ -19,7 +19,7 @@ function App() {
       )}
    
       <h1 style={style}> Hello React </h1>
-      <img src={logo} width={540}/>
+      <img src={logo} width={540} alt=""/>
       <input placeholder="test"/>
       <div>
       {arr.map((e) => (
